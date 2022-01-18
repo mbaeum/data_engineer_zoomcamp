@@ -1,0 +1,6 @@
+# basic
+```bash
+cd {here}
+docker build -t test:python .    
+docker run -it test:python -d=2021-01-15
+```
