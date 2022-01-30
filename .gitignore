@@ -1,6 +1,7 @@
 # course-specific
 week_1/2_docker_sql/ny_taxi_postgres_data/
 week_1/2_docker_sql/yellow_tripdata_2021-01.csv
+notes.txt
 .vscode
 # Byte-compiled / optimized / DLL files
 __pycache__/

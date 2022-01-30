@@ -6,18 +6,10 @@ from sqlalchemy import create_engine
 from sqlalchemy.engine import Engine
 from dataclasses import dataclass
 
-# from dynaconf import settings, LazySettings
-
-# from dynaconf import settings
-
-# conf = Dynaconf(root_path=Path(__file__).parent)
-# settings = LazySettings(ROOT_PATH_FOR_DYNACONF=Path(__file__).parent)
-
 
 @dataclass
 class S3Fetcher:
     path: str
-    # conf: LazySettings
     bucket: str = "nyc-tlc"
     base: str = "https://s3.amazonaws.com"
     iterator: bool = True

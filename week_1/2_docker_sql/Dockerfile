@@ -9,4 +9,4 @@ COPY pipeline.py pipeline.py
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT [ "python", "pipeline.py" ]
+ENTRYPOINT [ "python", "pipeline.py",  ]
